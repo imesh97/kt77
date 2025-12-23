@@ -85,7 +85,8 @@ export default function App() {
             </div>
 
             <button
-              onClick={() => handleSupport}
+              // eslint-disable-next-line @typescript-eslint/no-misused-promises
+              onClick={handleSupport}
               className="mt-6 px-8 py-3 border-2 border-black bg-white text-black hover:bg-black hover:text-white transition-colors duration-300 uppercase tracking-wider font-bold"
             >
               COUNT ME IN.
