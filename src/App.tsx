@@ -96,7 +96,7 @@ export default function App() {
 
         <div className="flex justify-center mt-12">
           <a
-            href="/truth.pdf"
+            href="/3truth4.pdf"
             className="text-decoration-none underline underline-offset-4 cursor-pointer text-[#4d179a]"
             target="_blank"
           >
