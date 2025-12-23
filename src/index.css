@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --color-light: #ffffff;
+  --color-dark: #000000;
+}
+
+body {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  color: var(--color-dark);
+  background: var(--color-light);
+  line-height: 1.6;
+}
+
+/* Custom selection color */
+::selection {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom button styles */
+button {
+  font-family: inherit;
+}
+
+/* Hidden elements that reveal on hover */
+.easter-egg {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.easter-egg:hover {
+  opacity: 1;
+}
+
+/* Minimal focus styles */
+button:focus {
+  outline: 2px solid #000000;
+  outline-offset: 2px;
+}
+
+/* Custom cursor for interactive elements */
+.cursor-custom {
+  cursor: crosshair;
+}
+
+/* Typography enhancements */
+h1 {
+  letter-spacing: -0.02em;
+}
+
+/* Subtle animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
