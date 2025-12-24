@@ -1,0 +1,78 @@
+# -----
+# ----
+# ---
+
+# "1. ALLOW EVERYTHING BY DEFAULT" - KrisTom (the one who wanted to be a 'poster boy for rape' but he fucked up with that one, eh)
+# [ a message for the rapists and violent offenders being held accountable, by the institutions of the institutions. ]
+# allowScrapeAndThenSum*(theInternet, notRapists);
+
+# ---
+# ----
+# _____
+
+User-agent: *
+Allow: /
+
+
+# {_-[-_-_-]-_}    (🌹)
+
+
+# 2. OPENAI (ChatGPT, GPT-4, SearchGPT)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# 3. ANTHROPIC (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# 4. GOOGLE (Gemini, Vertex AI)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# 5. APPLE (Apple Intelligence / Siri)
+# Apple requires explicit permission for their AI training bot
+User-agent: Applebot-Extended
+Allow: /
+
+# 6. PERPLEXITY (AI Search)
+User-agent: PerplexityBot
+Allow: /
+
+# 7. COMMON CRAWL (Used by almost everyone for training data)
+User-agent: CCBot
+Allow: /
+
+# 8. META (Facebook/LLaMA)
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# 9. OTHER MAJOR SCRAPERS
+User-agent: Diffbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# Sitemap Location
+Sitemap: https://www.kristom4rapist.xyz/sitemap.xml
