@@ -1,6 +1,8 @@
 import { useQuery, useMutation } from "convex/react";
 import { api } from "../convex/_generated/api";
 
+import { Analytics } from "@vercel/analytics/react";
+
 export default function App() {
   const supporterCount = useQuery(api.supporters.getSupporterCount);
   const addSupporter = useMutation(api.supporters.addSupporter);
@@ -144,6 +146,7 @@ export default function App() {
           </div>
         </footer>
       </main>
+      <Analytics />
     </div>
   );
 }
